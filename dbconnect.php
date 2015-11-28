@@ -23,14 +23,3 @@ class DBConnect {
     }
 
 }
-
-$data = array(
-    'host' => 'localhost',
-    'user' => 'root', 
-    'pwd' => '',
-    'db' => '',
-);
-
-$con = DBConnect::connect($data);
-
-var_dump($con);
