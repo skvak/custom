@@ -16,5 +16,6 @@ abstract class Controller {
 	}
 	 
 	abstract function output();
-
 }
+
+?>
